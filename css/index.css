@@ -27,9 +27,20 @@ body,div,html{
     font-size: 0.9rem;
     border: 1px solid rgb(87, 86, 86);
     border-radius: 3px 0 0 3px;
+    padding: 2px 5px;
 }
 #header .left .bottom-container>span:last-child
 {
     border-left: none;
-    
+    border-radius: 0 3px 3px 0;
+    margin-right: 10px;
+}
+#header .left .input-containter input{
+    width: 200px;
+    height: 22px;
+    border-radius: 11px;
+    border: none;
+    background-color: #A82828;
+    padding:0 9px;
+    font-size: 0.5rem;
 }
